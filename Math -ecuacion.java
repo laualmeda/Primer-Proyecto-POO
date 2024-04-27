@@ -22,3 +22,5 @@ public class MathEquation {
         // Implementación de la integral definida de x^a + bx
         return (Math.pow(x, a + 1) / (a + 1)) + (b * x);
     }
+public static double derivative(double x, double a, double b) {
+        // Implementación de la derivada de x^a + bx
