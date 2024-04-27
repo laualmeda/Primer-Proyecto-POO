@@ -1,6 +1,7 @@
 //Ashly
 public class MathEquation {
     public static void main(String[] args) {
+        //Declaraciones
         double x = 2.0; // Valor de la variable independiente
         double y = calculateEquation(x);
         
@@ -22,8 +23,10 @@ public class MathEquation {
         // Implementación de la integral definida de x^a + bx
         return (Math.pow(x, a + 1) / (a + 1)) + (b * x);
     }
+   //Kamila
 public static double derivative(double x, double a, double b) {
         // Implementación de la derivada de x^a + bx
-  return (a * Math.pow(x, a - 1)) + b;
+  //Jose
+    return (a * Math.pow(x, a - 1)) + b;
     }
 }
