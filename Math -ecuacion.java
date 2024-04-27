@@ -24,3 +24,6 @@ public class MathEquation {
     }
 public static double derivative(double x, double a, double b) {
         // Implementación de la derivada de x^a + bx
+  return (a * Math.pow(x, a - 1)) + b;
+    }
+}
